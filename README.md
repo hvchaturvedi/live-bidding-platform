@@ -136,7 +136,7 @@ CMD ["node", "server.js"]
 
 Local Setup
 1️⃣ Clone repository
-git clone <your-repo-url>
+git clone <https://github.com/hvchaturvedi/live-bidding-platform>
 cd live-bidding-platform
 
 2️⃣ Run Backend
@@ -179,9 +179,9 @@ Frontend: Vercel
 
 Deployed links:
 
-Frontend: <your-vercel-link>
+Frontend: <https://live-bidding-platform-rose.vercel.app/>
 
-Backend: <your-render-link>
+Backend: <https://live-bidding-platform-13ov.onrender.com/>
 
 Assessment Alignment
 Requirement	Status
