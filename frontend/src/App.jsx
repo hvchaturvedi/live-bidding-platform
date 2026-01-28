@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:4000");
+const socket = io("https://live-bidding-platform-13ov.onrender.com/");
 
 function App() {
   const [items, setItems] = useState([]);
@@ -14,7 +14,7 @@ function App() {
   localStorage.setItem("userId", userId);
 
   useEffect(() => {
-    fetch("http://localhost:4000/items")
+    fetch("https://live-bidding-platform-13ov.onrender.com/items")
       .then((res) => res.json())
       .then((data) => {
         setItems(data.items);
