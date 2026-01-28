@@ -61,6 +61,9 @@ io.on("connection", (socket) => {
     io.emit("UPDATE_BID", item);
   });
 });
+app.get("/", (req, res) => {
+  res.send("Live Bidding Backend is running");
+});
 
 server.listen(4000, () => {
   console.log("Backend running on http://localhost:4000");
